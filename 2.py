@@ -58,10 +58,9 @@ class AddressBook(UserDict):
     def delete(self, search_name):
         del self.data[search_name]
 
-
-
-
     # Створення нової адресної книги
+
+
 book = AddressBook()
 
 # Створення запису для John
